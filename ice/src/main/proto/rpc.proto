@@ -1,0 +1,5 @@
+syntax = "proto3";
+option java_package = "com.bootapp.service.core.proto";
+message Payload {
+    map<string, string> data = 1;
+}
